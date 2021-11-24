@@ -18,9 +18,26 @@
   font-weight: 600;
 }
 
-.bio {
+.bio,
+.waveCount {
   text-align: center;
   color: gray;
+  margin-top: 16px;
+}
+
+.form__field {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
   margin-top: 16px;
 }
 
@@ -30,5 +47,11 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 16px;
+  padding: 8px;
 }
